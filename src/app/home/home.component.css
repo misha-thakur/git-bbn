@@ -1,0 +1,87 @@
+#mainNav{
+    background-color: #fff;
+}
+header.bgHeader {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../assets/headerImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  header.bgHeader h1, header.bgHeader .h1 {
+    font-size: 2.25rem;
+  }
+  @media (min-width: 992px) {
+    header.bgHeader {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+    header.bgHeader p {
+      font-size: 1.15rem;
+    }
+    header.bgHeader h1, header.bgHeader .h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    header.bgHeader h1, header.bgHeader .h1 {
+      font-size: 3.5rem;
+    }
+  }
+.btn-orange {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #f4623a;
+  }
+
+.btn-orange:hover, .btn-orange:hover, .bg-orange {
+    background-color: #cf5331;
+  }
+
+.services-box div{
+    padding:20px;
+    margin-top:20px
+}
+.services-box div:hover{
+    border: 1px solid #c7c2c2;
+}
+
+.services-box div:nth-of-type(odd) {
+    background-color:#fd7e14;
+}
+        
+.services-box div:nth-of-type(even) {
+    background-color:#c7c2c2;
+}
+.services-box div:nth-of-type(odd):hover {
+    background-color:#cf5331;
+}
+        
+.services-box div:nth-of-type(even):hover {
+    background-color:#555454;;
+}
+
+#clientCarousel .clients {
+   margin: 30px 0;
+}
+
+#clientCarousel .clients span {
+    display: inline-flex;
+    border: 1px solid #bbb7b7;
+    border-radius: 50%;
+    max-width: 120px;
+    height: 100px;
+    padding: 5px;
+    align-items: center;
+    box-shadow: 0 0  10px #555454;
+    font-weight: bold;
+    color:#cf5331;
+}
